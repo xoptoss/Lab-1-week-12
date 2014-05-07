@@ -16,11 +16,9 @@ public class dice {
 	{			
 		for(int i=Bounces;i>0;i--)
 		{
-		value=value+random.nextInt(6)+1;
 		System.out.println(value);
 		}
 		value=value/Bounces;
-		System.out.println("new"+value);
 		return value;
 	}
 
